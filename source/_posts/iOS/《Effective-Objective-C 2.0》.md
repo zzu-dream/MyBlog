@@ -4,6 +4,16 @@ tags:  [iOS-WIKI]
 categories:  [iOS]
 date:  2018-06-11 16:17:22
 ---
+图片原地址：https://upload-images.jianshu.io/upload_images/1457495-debf9e0c37687e51.png
+![图片](https://upload-images.jianshu.io/upload_images/1457495-debf9e0c37687e51.png)  
+[对应简书总结](https://www.jianshu.com/p/862b064e82e0)  
+[Effective-Objective-C 2.0.pdf](https://github.com/aozhimin/awesome-iOS-resource/blob/master/Books/Effective%20Objective-C%202.0%20%20%E7%BC%96%E5%86%99%E9%AB%98%E8%B4%A8%E9%87%8FiOS%E4%B8%8EOS%20X%E4%BB%A3%E7%A0%81%E7%9A%8452%E4%B8%AA%E6%9C%89%E6%95%88%E6%96%B9%E6%B3%95.pdf)  
+[iOS相关书籍汇总](https://github.com/aozhimin/awesome-iOS-resource/tree/master/Books)
+
+-----------------------
+*分界线*
+
+-----------------------
 
 >说明：以下内容 均来自与jatstar的汇总 只做引用学习 没有商业用途 [Effective-Objective-C 2.0](https://jatstar.cn/2016/07/10/Effective-Objective-C-2-0/)
 

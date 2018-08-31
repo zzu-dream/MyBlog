@@ -12,7 +12,7 @@ date:  2018-06-11 16:17:22
 
 ### 直接命令修改
 
-```
+``` 
 git remote set-url origin [url]
 ```
 
