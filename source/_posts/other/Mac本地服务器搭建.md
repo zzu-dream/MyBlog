@@ -51,3 +51,6 @@ Mac OS 终端起动、关闭、重启apache的方法
 关闭apache：sudo /usr/sbin/apachectl stop
 开启apache：sudo /usr/sbin/apachectl start
  
+### Mac下如何修改apache根目录
+
+[Mac下如何修改apache根目录](https://www.cnblogs.com/chuangshaogreat/p/7821407.html) 
