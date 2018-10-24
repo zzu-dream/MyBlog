@@ -62,5 +62,6 @@ date:  2018-06-11 16:17:22
 ```
 
 
-[Java Web应用程序的推荐目录结构](https://www.cnblogs.com/yudy/archive/2012/06/26/2563638.html)
-[Java Web 项目目录规范](https://www.cnblogs.com/scown/p/5561677.html)
+[Java Web应用程序的推荐目录结构](https://www.cnblogs.com/yudy/archive/2012/06/26/2563638.html)  
+[Java Web 项目目录规范](https://www.cnblogs.com/scown/p/5561677.html)  
+[用IntelliJ idea 创建 springMVC 的Maven 项目](https://blog.csdn.net/qq_28018283/article/details/79398661)

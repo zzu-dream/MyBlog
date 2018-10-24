@@ -61,3 +61,7 @@ $ du -ah    # 此处略去了无关输出
 多个`commit` 只需要`git cherry-pick commitid1..commitid100`
 
 注意，不包含第一个`commitid` ， 即  `git cherry-pick (commitid1..commitid100]`
+
+### Git更新远程分支列表
+
+`git remote update origin --prune`
