@@ -48,10 +48,14 @@ npm install --save-dev redux-logger
 为了描述 action 如何改变 state tree ，你需要编写 reducers
 
 ### 外部优秀网站
+[CSS参考手册](https://www.css88.com/book/css/)  
 [React 入门 ruanyifeng](http://www.ruanyifeng.com/blog/2015/03/react.html)  
 [React入门篇](https://segmentfault.com/a/1190000012921279)  
+[react.docschina.org](https://react.docschina.org/docs/hello-world.html)  
 [React 中文索引](http://nav.react-china.org/)  
 [react-collection](https://github.com/LeuisKen/react-collection)  
 [Ant Design of React](https://ant.design/docs/react/introduce-cn)  
 [Drag and Drop for React](http://react-dnd.github.io/react-dnd/)  
-[Redux 入门教程](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html)
+[Redux 入门教程](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html)  
+[HTML 元素参考
+](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element#文本内容)
