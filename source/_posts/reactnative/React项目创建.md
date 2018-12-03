@@ -48,6 +48,8 @@ npm install --save-dev redux-logger
 为了描述 action 如何改变 state tree ，你需要编写 reducers
 
 ### 外部优秀网站
+
+[Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)  
 [CSS参考手册](https://www.css88.com/book/css/)  
 [React 入门 ruanyifeng](http://www.ruanyifeng.com/blog/2015/03/react.html)  
 [React入门篇](https://segmentfault.com/a/1190000012921279)  

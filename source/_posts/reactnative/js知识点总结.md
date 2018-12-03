@@ -46,5 +46,32 @@ alert(b);
 
 [原生JS实现深拷贝](https://blog.csdn.net/wang839305939/article/details/80819132)
 
-#### React Developer Tools
+#### Chrome react调试插件
 [React - React Developer Tools开发者工具的安装与使用（Chrome调试插件）](http://www.cnplugins.com/zhuanti/how-to-use-react-tools.html)
+
+#### 从React15.5起，React.PropTypes被移入到单独的package中
+
+[使用 PropTypes 进行类型检查](https://react.docschina.org/docs/typechecking-with-proptypes.html)
+
+**需要我们安装软件包prop-types 安装方法为：**
+
+* 安装prop-types `npm install prop-types --save`      
+
+* 导入  `import { PropTypes} from 'prop-types';`
+
+* 使用
+
+```
+  static defaultProps = {
+    name: 'stranger'
+  }
+  
+static propTypes = {
+        autoPlay: PropTypes.bool.isRequired,
+        maxLoops: PropTypes.number.isRequired,
+        posterFrameSrc:PropTypes.string.isRequired,
+        videoSrc: PropTypes.string.isRequired,
+        nameString: PropTypes.string.isRequired,
+    };  
+     
+```
