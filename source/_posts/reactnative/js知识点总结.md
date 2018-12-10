@@ -44,7 +44,37 @@ alert(b);
 
 #### 原生JS实现深拷贝
 
-[原生JS实现深拷贝](https://blog.csdn.net/wang839305939/article/details/80819132)
+[原生JS实现深拷贝](https://blog.csdn.net/wang839305939/article/details/80819132)  
+[JavaScript 中的对象拷贝](https://www.css88.com/archives/8319)
+
+* 使用 `Object.assign()` 方法用于将从一个或多个源对象中的所有可枚举的属性值复制到目标对象
+
+```
+let obj = {
+  a: 1,
+  b: 2,
+};
+let objCopy = Object.assign({}, obj);
+console.log(objCopy);
+// Result - { a: 1, b: 2 }
+
+```
+* 使用`JSON.parse(JSON.stringify(object))`
+
+```
+let obj = { 
+  a: 1,
+  b: { 
+    c: 2,
+  },
+}
+ 
+let newObj = JSON.parse(JSON.stringify(obj));
+ 
+obj.b.c = 20;
+console.log(obj); // { a: 1, b: { c: 20 } }
+console.log(newObj); // { a: 1, b: { c: 2 } } (一个新的对象)
+```
 
 #### Chrome react调试插件
 [React - React Developer Tools开发者工具的安装与使用（Chrome调试插件）](http://www.cnplugins.com/zhuanti/how-to-use-react-tools.html)
