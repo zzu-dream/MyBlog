@@ -56,3 +56,7 @@ CocoaPods的使用：
 
 安装完成后就可以使用了
 
+## 安装问题
+
+### 使用cocoapods出现ld: symbol(s) not found for architecture x86_64问题
+[解决方案](https://cn.aliyun.com/jiaocheng/398823.html)
