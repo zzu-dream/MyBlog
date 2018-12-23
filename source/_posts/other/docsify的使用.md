@@ -33,4 +33,5 @@ docsify init ./docs
 
 
 #### 优秀使用者
-[小z博客文档管理系统](https://doc.xiaoz.me/#/)
+[小z博客文档管理系统](https://doc.xiaoz.me/#/)  
+[使用docsify快速生成在线文档](https://mao.sh/archives/122.html)
