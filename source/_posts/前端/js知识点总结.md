@@ -105,3 +105,24 @@ static propTypes = {
     };  
      
 ```
+
+#### CSS3的calc()使用
+
+calc()从字面我们可以把他理解为一个函数function。其实calc是英文单词calculate(计算)的缩写，是css3的一个新增的功能，用来指定元素的长度。比如说，你可以使用calc()给元素的border、margin、pading、font-size和width等属性设置动态值。为何说是动态值呢?因为我们使用的表达式来得到的值。不过calc()最大的好处就是用在流体布局上，可以通过calc()计算得到元素的宽度。
+
+[CSS3的calc()使用](https://www.w3cplus.com/css3/how-to-use-css3-calc-function.html)
+
+#### 如果变量名与属性名不一致，必须写成下面这样。
+
+```
+let { foo: baz } = { foo: 'aaa', bar: 'bbb' };
+baz // "aaa"
+
+let obj = { first: 'hello', last: 'world' };
+let { first: f, last: l } = obj;
+f // 'hello'
+l // 'world'
+```
+
+#### ES6 引入了一种新的原始数据类型Symbol
+ES6 引入了一种新的原始数据类型Symbol，表示独一无二的值。它是 JavaScript 语言的第七种数据类型，前六种是：undefined、null、布尔值（Boolean）、字符串（String）、数值（Number）、对象（Object）。
