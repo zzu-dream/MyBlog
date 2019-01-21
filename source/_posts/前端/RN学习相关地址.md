@@ -23,7 +23,8 @@ date:  2018-06-15 16:17:22
 [Redux 入门教程（一）：基本用法](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html)  
 [JavaScript ES6基础语法] (http://es6.ruanyifeng.com/)  
 [Redux介绍] (http://cn.redux.js.org/)  
-[MobX 简单、可扩展的状态管理](https://cn.mobx.js.org/)
+[MobX 简单、可扩展的状态管理](https://cn.mobx.js.org/)  
+[Ant Design 实战教程（beta 版）第一个组件](https://www.yuque.com/ant-design/course/fd5af7)
 
 ## 视频学习
 
