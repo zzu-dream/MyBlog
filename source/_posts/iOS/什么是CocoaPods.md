@@ -60,3 +60,7 @@ CocoaPods的使用：
 
 ### 使用cocoapods出现ld: symbol(s) not found for architecture x86_64问题
 [解决方案](https://cn.aliyun.com/jiaocheng/398823.html)
+
+## cocoapods版本兼容问题
+
+[使用bundle管理多版本Cocoapods之间的协助开发](https://blog.csdn.net/u013749108/article/details/53239557)

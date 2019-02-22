@@ -11,3 +11,8 @@ date:  2018-06-11 16:17:22
 
 
 Generate Debug Symbols 修改为NO后 能减少包的大小 但是debug功能就不能使用了
+
+
+-
+![](https://img-blog.csdn.net/20150202124656301)
+[iOS可执行文件瘦身方法](https://www.cnblogs.com/jasontec/p/9601631.html)
