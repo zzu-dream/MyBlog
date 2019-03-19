@@ -56,3 +56,9 @@ bundle exec pod install --verbose --no-repo-update
 
 bundle exec pod update --verbose --no-repo-update
 ```
+
+### 本地cocoapods版本列举
+可以通过 gem list --local | grep cocoapods 命令查看我们电脑上安装了哪些版本的 CocoaPods，并通过 pod --version 查看系统默认使用的那个版本。
+
+
+[多个版本的 CocoaPods 的切换](https://www.jianshu.com/p/411003ac28e4)
