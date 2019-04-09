@@ -6,6 +6,10 @@ categories: ReactNative
 date:  2018-06-15 16:17:22
 ---
 ## RN学习相关地址
+
+
+[ReactNative从零开始搭建环境笔记0](https://www.jianshu.com/p/04c22869df76)    
+
 [reactnative中文官网](https://reactnative.cn/docs/getting-started.html)    
 [React之JSX语法](https://www.cnblogs.com/summary-2017/p/7472772.html)  
 [crazycodeboy  RN学习笔记](https://github.com/crazycodeboy/RNStudyNotes)  
