@@ -26,3 +26,10 @@ public static <E> boolean contains(E [] arr, E x){
 
 ```
  
+### 泛型 （? extends T和? super T）
+[泛型 （? extends T和? super T）](https://blog.csdn.net/android_bar/article/details/81486161)
+
+<? extends T>和<? super T>是泛型中的“通配符（Wildcards）”和“边界（Bounds）”的概念。
+
+* <? extends T>：上界通配符（Upper Bounds Wildcards）
+* <? super T>：    下界通配符（Lower Bounds Wildcards）
