@@ -96,8 +96,8 @@ deploy:
   type: git
   repository:
       github: https://github.com/yongjunwen/yongjunwen.github.io.git,master
-      coding: https://git.coding.net/dream001/dream001.coding.me.git,master
-  branch: master 
+      coding: git@git.dev.tencent.com:dream001/dream001.coding.me.git,master
+  # branch: master 
   
 search:
   path: search.xml
