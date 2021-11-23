@@ -39,3 +39,6 @@ Components 组件
 
 >react用于web应用开发，rn采用React方式进行移动应用开发。
 rn采用React语法，用于进行JavaScript跨终端应用开发，即拥有原生native的交互体验，又能够保留React自由的开发效率，使用灵活的的html和css布局，使用React语法结构组件，然后同时运行在ios和android平台上。
+
+## React官网推荐JavaScript教程
+[React官网推荐JavaScript教程](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript) 

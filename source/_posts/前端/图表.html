@@ -1,0 +1,96 @@
+
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
+<script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+<div id="main" style="position: absolute; left: 0; top: 0;"></div>
+
+<script type="text/javascript">
+let myChart=echarts.init(main)
+; (onresize=_=>{
+  main.style.width=innerWidth+'px'
+  main.style.height=innerHeight+'px'
+  myChart.resize()
+})()
+
+const getopt=(title, inited, data)=>({
+  backgroundColor: '#fff',
+    title: {
+        text: title,
+        left: '33%',
+    },
+    tooltip: {
+        trigger: 'axis',
+    },
+    legend: Object.assign({
+        data: Object.keys(data[0]).filter(a=>a!=='日期'),
+        top: '12%',
+    }, inited? {}: {
+        selected: {heapTotal: false, external: false, rss: false}
+    }),
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        top: '22%',
+        containLabel: true
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: data.map(a=>a['日期'])
+    },
+    yAxis: {
+        type: 'value',
+        axisLabel:{formatter: '{value} 毫秒'}
+    },
+    series: Object.keys(data[0]).filter(a=>a!=='日期').map(k=>({
+      name: k,
+      type: 'line',
+      stack: k,
+      data: data.map(a=>a[k]),
+    })),
+})
+
+const data=[
+{
+  "日期": "11-16",
+  "Android": "758.03",
+  "iOS": "872.21"
+},
+{
+    "日期": "11-17",
+    "Android": "761.54",
+    "iOS": "878.91"
+},
+{
+    "日期": "11-18",
+    "Android": "763.22",
+    "iOS": "871.78"
+},
+{
+    "日期": "11-19",
+    "Android": "771.16",
+    "iOS": "888.15"
+},
+{
+    "日期": "11-20",
+    "Android": "741.59",
+    "iOS": "847.57"
+},
+{
+    "日期": "11-21",
+    "Android": "734.98",
+    "iOS": "832.24"
+},
+{
+    "日期": "11-22",
+    "Android": "749.53",
+    "iOS": "821.18"
+},
+]
+
+
+
+myChart.setOption(getopt('H5加载耗时概览(来源烛龙平台)', {}, data))
+
+</script>
